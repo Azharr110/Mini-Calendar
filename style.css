@@ -26,6 +26,12 @@ body{
     height: 220px;
     border-radius: 10px 0px 0px 10px; 
     font-weight: 600;
+    /* display: grid;
+    place-items: center; */
+    /* for centering div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .right{
@@ -35,5 +41,7 @@ body{
     height: 220px;
     border-radius: 0px 10px 10px 0px;
     font-weight: 600;
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
